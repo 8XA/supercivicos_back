@@ -3,7 +3,7 @@
 # Para correr el servidor:
 
 pip install virtualenv\
-cd ruta_del_repositorio_clonado/ejercicios-level\
+cd ruta_del_repositorio_clonado/supercivicos_back\
 virtualenv -p python3 supercivicosENV\
 source supercivicosENV/bin/activate\
 pip install -r requirements.txt\
