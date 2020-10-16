@@ -8,7 +8,7 @@ virtualenv -p python3 supercivicosENV\
 source supercivicosENV/bin/activate\
 pip install -r requirements.txt\
 cd scbackend\
-./manage.py runserver
+python manage.py runserver
 
 # Endpoint GET:
 http://localhost:8000/empresas/ \
