@@ -13,6 +13,21 @@ python manage.py runserver
 # Endpoint GET:
 http://localhost:8000/empresas/ \
 El mismo enlace le permite hacer POST
+# Ejemplo:
+    {
+        "empresa": "Saul inc.",
+        "responsable": "Adrian",
+        "calle": "avenida 13 de mayo",
+        "num_exterior": "23",
+        "num_interior": "2",
+        "colonia": "Olivares",
+        "ciudad": "Hermosillo",
+        "pais": "Mexico",
+        "CP": 78412,
+        "email": "saul_inc@loquesea.com",
+        "telefono": 5124587415,
+        "contrasena": "asdasdasd123"
+    }
 
 # O si prefiere la terminal:
 pip install httpie\
